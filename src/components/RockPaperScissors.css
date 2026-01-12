@@ -1,0 +1,139 @@
+.rps-container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.game-header {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.back-button {
+  padding: 0.75rem 1.5rem;
+  background: white;
+  color: #4facfe;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-weight: bold;
+}
+
+.back-button:hover {
+  background: #f0f0f0;
+}
+
+.score-display {
+  display: flex;
+  gap: 2rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.rps-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  max-width: 600px;
+}
+
+.choices-section {
+  width: 100%;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.choice-display {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.choice-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.choice-emoji {
+  font-size: 5rem;
+}
+
+.choice-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.vs {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4facfe;
+}
+
+.result-message {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4facfe;
+  padding: 1rem;
+  background: #f0f8ff;
+  border-radius: 8px;
+}
+
+.buttons-section {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.choice-button {
+  padding: 1.5rem 2rem;
+  font-size: 1.5rem;
+  background: white;
+  border: 3px solid #4facfe;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: bold;
+  color: #333;
+}
+
+.choice-button:hover {
+  background: #4facfe;
+  color: white;
+  transform: scale(1.05);
+}
+
+.reset-button {
+  padding: 0.75rem 2rem;
+  background: white;
+  color: #4facfe;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-weight: bold;
+}
+
+.reset-button:hover {
+  background: #f0f0f0;
+}
